@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 
+import Navbar from "../../components/Navbar";
 /* import { BookCard } from "../../components/bookCard";
 import { Footer } from "../../components/footer";
 import { Marginer } from "../../components/marginer";
-import { Navbar } from "../../components/navbar";
 import { AboutUs } from "./aboutUs";
 import { BookingSteps } from "./bookingSteps";
 import { TopCars } from "./topCars";
@@ -24,8 +24,8 @@ const PageContainer = styled.div`
 const HomePage = () => {
   return (
     <PageContainer>
-      Hello duppy
-      {/* <Navbar />
+      <Navbar />
+      {/*
       <TopSection />
       <Marginer direction="vertical" margin="4em" />
       <BookCard />
