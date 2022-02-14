@@ -2,13 +2,13 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 import Navbar from "../../components/Navbar";
+import TopSection from "./topSection";
 /* import { BookCard } from "../../components/bookCard";
 import { Footer } from "../../components/footer";
 import { Marginer } from "../../components/marginer";
 import { AboutUs } from "./aboutUs";
 import { BookingSteps } from "./bookingSteps";
-import { TopCars } from "./topCars";
-import { TopSection } from "./topSection"; */
+import { TopCars } from "./topCars"; */
 
 const PageContainer = styled.div`
   ${tw`
@@ -25,8 +25,8 @@ const HomePage = () => {
   return (
     <PageContainer>
       <Navbar />
-      {/*
       <TopSection />
+      {/*
       <Marginer direction="vertical" margin="4em" />
       <BookCard />
       <Marginer direction="vertical" margin="10em" />
