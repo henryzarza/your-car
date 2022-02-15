@@ -3,9 +3,10 @@ import tw from "twin.macro";
 
 import Navbar from "../../components/Navbar";
 import TopSection from "./topSection";
-/* import { BookCard } from "../../components/bookCard";
+import { Marginer } from "../../components/Marginer";
+import BookCard from "../../components/BookCard";
+/*
 import { Footer } from "../../components/footer";
-import { Marginer } from "../../components/marginer";
 import { AboutUs } from "./aboutUs";
 import { BookingSteps } from "./bookingSteps";
 import { TopCars } from "./topCars"; */
@@ -26,10 +27,10 @@ const HomePage = () => {
     <PageContainer>
       <Navbar />
       <TopSection />
-      {/*
       <Marginer direction="vertical" margin="4em" />
       <BookCard />
       <Marginer direction="vertical" margin="10em" />
+      {/*
       <BookingSteps />
       <Marginer direction="vertical" margin="8em" />
       <AboutUs />
