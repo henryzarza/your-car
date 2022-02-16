@@ -6,9 +6,9 @@ import TopSection from "./topSection";
 import { Marginer } from "../../components/Marginer";
 import BookCard from "../../components/BookCard";
 import BookingSteps from "./bookingSteps";
+import AboutUs from "./aboutUs";
 /*
 import { Footer } from "../../components/footer";
-import { AboutUs } from "./aboutUs";
 import { TopCars } from "./topCars"; */
 
 const PageContainer = styled.div`
@@ -32,9 +32,9 @@ const HomePage = () => {
       <Marginer direction="vertical" margin="10em" />
       <BookingSteps />
       <Marginer direction="vertical" margin="8em" />
-      {/*
       <AboutUs />
       <Marginer direction="vertical" margin="8em" />
+      {/*
       <TopCars />
       <Footer /> */}
     </PageContainer>
