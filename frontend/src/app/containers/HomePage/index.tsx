@@ -7,9 +7,8 @@ import { Marginer } from "../../components/Marginer";
 import BookCard from "../../components/BookCard";
 import BookingSteps from "./bookingSteps";
 import AboutUs from "./aboutUs";
-/*
-import { Footer } from "../../components/footer";
-import { TopCars } from "./topCars"; */
+import TopCars from "./topCars";
+/* import { Footer } from "../../components/footer"; */
 
 const PageContainer = styled.div`
   ${tw`
@@ -34,8 +33,8 @@ const HomePage = () => {
       <Marginer direction="vertical" margin="8em" />
       <AboutUs />
       <Marginer direction="vertical" margin="8em" />
-      {/*
       <TopCars />
+      {/*
       <Footer /> */}
     </PageContainer>
   );
